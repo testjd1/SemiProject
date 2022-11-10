@@ -2380,7 +2380,7 @@ input, select, textarea {
 			#nav li > ul {
 				display: none;
 			}
-
+			/* 헤드부분 문자 */
 			#nav li a, #nav li span {
 				-moz-transition: background-color .075s ease-in-out, color .075s ease-in-out;
 				-webkit-transition: background-color .075s ease-in-out, color .075s ease-in-out;
@@ -2400,22 +2400,22 @@ input, select, textarea {
 			#nav li:hover, #nav li.active {
 				top: 3px;
 			}
-
+			/*헤드부분 커서 올렸을 때 어두워짐*/
 			#nav li:hover a, #nav li:hover span {
 				background: #C1CAC5;
 				color: #fff;
 			}
-
+			/*드롭다운시 헤드 색깔*/
 			#nav li.active a, #nav li.active span {
 				background: #C1CAC5;
 				color: #fff;
 			}
-
+			/* 클릭시 현재 탭 색깔*/
 			#nav li.current a {
-				background: #b1ddab;
+				background: black;
 				color: #fff;
 			}
-
+	/*드롭다운시 배경 색깔*/
 	.dropotron {
 		list-style: none;
 		background: #6B7770;
@@ -2443,7 +2443,7 @@ input, select, textarea {
 				text-decoration: none;
 				padding: 0 1.25em;
 			}
-
+			/*드롭다운한거 마우스커서 배경색*/
 			.dropotron li:hover > a, .dropotron li:hover > span {
 				color: #fff;
 				background: #7B8780;
