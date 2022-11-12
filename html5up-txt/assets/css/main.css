@@ -2038,6 +2038,11 @@ input, select, textarea {
 				ul.special li:hover a:before {
 					background: #b9d2ce;
 				}
+				
+				ul.special li p{
+					color: red;
+				}
+				
 
 /* Meta */
 
@@ -2540,7 +2545,7 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
+		/*border-top: solid 5px #b1ddab;*/
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
