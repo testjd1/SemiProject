@@ -2351,7 +2351,7 @@ input, select, textarea {
 	#nav  {
 		position: fixed;
 		top: 0;
-		left: 30;
+		padding-top: 3.25em;
 		z-index: 1000;
 		background-color: rgba(255, 255, 255, 0.95);
 		background-image: url("images/overlay.png");
@@ -2366,26 +2366,24 @@ input, select, textarea {
 
 	 
 
-	 #navImage > img {
+	 #nav > #navImage > img {
 		position: fixed;
 		top: 0;
 		left: 0;
 		z-index: 1100;
 		background-color: rgba(255, 255, 255, 0.95);
 		background-image: url("images/overlay.png");
-		width: 100%;
-		height: 3.25em;
+		
 		line-height: 3.25em;
 		text-align: center;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
 		cursor: default;
-		
-		width: 100px;
-		height: 100px;
+		size: relative;
 		display: inline-block;
 		margin: 0 0.5em 0 0.5em;
+		
 	} 
 
 
@@ -2398,9 +2396,8 @@ input, select, textarea {
 		#nav li {
 			display: inline-block;
 			margin: 0 0.5em 0 0.5em;
-			top: 0;
+			top: 10;
 			position: relative;
-			
 			-moz-transition: top .15s ease-in-out;
 			-webkit-transition: top .15s ease-in-out;
 			-o-transition: top .15s ease-in-out;
@@ -2426,6 +2423,7 @@ input, select, textarea {
 				border-bottom-left-radius: 6px;
 				border-bottom-right-radius: 6px;
 				outline: 0;
+				font-size: 25px;
 			}
 		
 
@@ -2434,18 +2432,20 @@ input, select, textarea {
 			}
 			/*헤드부분 커서 올렸을 때 어두워짐*/
 			#nav li:hover a, #nav li:hover span {
-				background: #C1CAC5;
-				color: #fff;
+				
+				color: black;
+				
 			}
 			/*드롭다운시 헤드 색깔*/
 			#nav li.active a, #nav li.active span {
-				background: #C1CAC5;
-				color: #fff;
+			
 			}
 			/* 클릭시 현재 탭 색깔*/
 			#nav li.current a {
-				background: black;
-				color: #fff;
+				
+				text-decoration-color: #006599;
+				text-decoration: underline;
+				
 			}
 	
 	/*드롭다운시 배경 색깔*/
